@@ -6,6 +6,44 @@ body {
 .nav-bar {
     height: 85px;
     width: 100%;
-    background-color:;
-    /* border-bottom:; */
+    background-color: #234790;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+    display: inline;
+}
+
+.nav-list {
+    float: right;
+    height: 100px;
+    width: 100%;
+}
+
+.list-item {
+    list-style-type: none;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.nav-button {
+   background-color: #FC393D; 
+   border-radius: 50px;
+   color: #FFF;
+   /* padding: 15px 32px; */
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
 }
