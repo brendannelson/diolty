@@ -120,7 +120,7 @@ body {
     /* text-align: center; */
 }
 
-.col-img img {
+.index-img img {
     height: 500px;
     width: 100%;
 }
@@ -175,7 +175,7 @@ body {
 
 /* end of footer styles */
 
-.container {
+.contact-container {
     height: 550px;
     width: 100%;
     margin-top: 108px;
@@ -192,7 +192,7 @@ body {
 
 /* end of contact styles */
 
-.container {
+.about-container {
     height: 700px;
     width: 100%;
     /* margin-top: 150px;
@@ -207,6 +207,7 @@ body {
     padding: 25px 20px;
     margin-left: 20px;
     overflow: hidden;
+    text-align: center;
 }
 
 .col-img {
@@ -219,12 +220,19 @@ body {
 .audio-col {
     display: block;
     margin: auto;
+    padding-top: 120px; /* distance from the top of the audio div */
 }
 
+.audio-col-h2 {
+    padding-top: 139px;
+}
 
+.audio-col-h2 h2 {
+    text-align: center;
+}
 
 .col-video {
     display: block;
-    width: 500px;
+    width: 300px; /* shortened to make the video fit in the column */
     padding: 10px;
 }
