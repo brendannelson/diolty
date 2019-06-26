@@ -17,6 +17,7 @@ body {
     font-size: 18px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
+    top: 0;
 }
 
 .nav-list {
@@ -124,6 +125,8 @@ body {
     width: 100%;
 }
 
+/* end of home styles */
+
 .social, 
 .copy {
     float: left;
@@ -168,4 +171,21 @@ body {
 .fa-linkedin {
     font-size: 26px;
     padding-left: 35px;
+}
+
+/* end of footer styles */
+
+.container {
+    height: 550px;
+    width: 100%;
+    margin-top: 108px;
+}
+
+.contact-col {
+    float: left;
+    margin-left: 90px;
+}
+
+.form {
+    padding-top: 20px;
 }
