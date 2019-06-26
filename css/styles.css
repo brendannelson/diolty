@@ -132,18 +132,13 @@ body {
     text-align: center;
 }
 
-/* .copy {
-    float: left;
-    width: 30%;
-} */
-
 .social {
     margin-top: 24px; 
     display: inline-block;
 }
 
 .copy {
-    margin-top: 9px;
+    margin: 25px 50px;
 }
 
 .footer {
@@ -166,4 +161,11 @@ body {
 
 .fa-linkedin {
     color: #007BB5;
+}
+
+.fa-envelope,
+.fa-twitter-square,
+.fa-linkedin {
+    font-size: 26px;
+    padding-left: 35px;
 }
