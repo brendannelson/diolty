@@ -25,31 +25,30 @@ body {
     list-style-type: none;
 }
 
-.list-item a,
-.logo {
-    text-decoration: none;
-    color: #FFF;
-    float: left;
-}
-
 .list-item {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     text-align: center;
     margin: 27px auto;
 }
 
 .list-item a {
-    margin-right: 20px;
+    margin-right: 20px; /* used for spacing between nav bar list items */
+    margin-left: 20px;     
 }
 
 .logo {
     height: 70px;
     width: 80px;
     display: inline;
-    /* margin-
-    margin-left: 20px;
-    margin-right: 50%; */
     margin: 7px 50% 0 70px;
+}
+
+.list-item a,
+.logo {
+    text-decoration: none;
+    color: #FFF;
+    float: left;
 }
 
 #one {
