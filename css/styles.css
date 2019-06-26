@@ -189,3 +189,42 @@ body {
 .form {
     padding-top: 20px;
 }
+
+/* end of contact styles */
+
+.container {
+    height: 700px;
+    width: 100%;
+    /* margin-top: 150px;
+    margin-bottom: 10px; */
+    margin: 150px 0 10px 150px;
+}
+
+.columns {
+    width: 24%;
+    /* border: 3px solid #000; */
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.col-img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.audio-col {
+    display: block;
+    margin: auto;
+}
+
+
+
+.col-video {
+    display: block;
+    width: 500px;
+    padding: 10px;
+}
