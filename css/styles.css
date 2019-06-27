@@ -158,12 +158,24 @@ body {
     color: #D44638;
 }
 
+.fa-envelope:hover {
+    color: #A73025;
+}
+
 .fa-twitter-square {
     color: #1DA1F2;
 }
 
+.fa-twitter-square:hover {
+    color: #0B7BC1;
+}
+
 .fa-linkedin {
     color: #007BB5;
+}
+
+.fa-linkedin:hover {
+    color: #00AEFF;
 }
 
 .fa-envelope,
@@ -235,4 +247,65 @@ body {
     display: block;
     width: 300px; /* shortened to make the video fit in the column */
     padding: 10px;
+}
+
+/* end of about styles */
+
+.shop-wrapper {
+    height: 500px;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: center;
+}
+
+
+
+.item-one,
+.item-two,
+.item-three,
+.item-four,
+.item-five,
+.item-six {
+    /* background-color: #E6F5FF; */
+    height: 375px;
+    width: 275px;
+    margin: 50px 0 0 50px;
+    color: #000;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.item-img {
+    height: 300px;
+    width: 300px;
+}
+
+.item-anchor {
+    text-decoration: none;
+    text-align: center;
+}
+
+.item-anchor h2 {
+    color: #000;
+}
+
+.column-left {
+    padding-left: 50px; /* important for pushing the whole shop-wrapper to the right wihtout going past 100% viewport */
+}
+
+.shop-footer {
+    top: 400px; /* used for pushing footer on shop page down; unbale to get it to work any other way for now */
 }
