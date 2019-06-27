@@ -34,8 +34,9 @@ body {
 }
 
 .list-item a {
-    margin-right: 20px; /* used for spacing between nav bar list items */
-    margin-left: 20px;     
+    margin-right: 20px;
+    /* used for spacing between nav bar list items */
+    margin-left: 20px;
 }
 
 .logo {
@@ -62,15 +63,16 @@ body {
 }
 
 .nav-button {
-   background-color: #FC393D; 
-   border-radius: 50px;
-   color: #FFF;
-   padding: 10px 20px; /* for the rounded corners on the button */
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 12px;
-   font-weight: normal;
+    background-color: #FC393D;
+    border-radius: 50px;
+    color: #FFF;
+    padding: 10px 20px;
+    /* for the rounded corners on the button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 .nav-button:hover {
@@ -83,14 +85,16 @@ body {
 
 .banner-text {
     height: 100px;
-    width: 400px; /* enlarged this to get "Welcome to Diolty on one line */
+    width: 400px;
+    /* enlarged this to get "Welcome to Diolty on one line */
     color: #FFF;
     position: absolute;
     top: 32%;
     left: 35%;
     overflow: hidden;
     text-align: center;
-    margin-top: 20px; /* used for pushing words in h1 down */
+    margin-top: 20px;
+    /* used for pushing words in h1 down */
     /* text-shadow: greenyellow 6px 6px; */
     /* box-shadow: greenyellow 6px 6px; */
 }
@@ -127,7 +131,7 @@ body {
 
 /* end of home styles */
 
-.social, 
+.social,
 .copy {
     float: left;
     width: 30%;
@@ -136,7 +140,7 @@ body {
 }
 
 .social {
-    margin-top: 24px; 
+    margin-top: 24px;
     display: inline-block;
 }
 
@@ -149,7 +153,7 @@ body {
     width: 100%;
     position: relative;
     /* top: 1675px; */
-    background-color: #F2F2F2; 
+    background-color: #F2F2F2;
     /* background-color: rgba(242, 242, 242, .5); TRANSPARENT FOOTER*/
     border-top: 2px solid black;
 }
@@ -232,7 +236,8 @@ body {
 .audio-col {
     display: block;
     margin: auto;
-    padding-top: 120px; /* distance from the top of the audio div */
+    padding-top: 120px;
+    /* distance from the top of the audio div */
 }
 
 .audio-col-h2 {
@@ -245,7 +250,8 @@ body {
 
 .col-video {
     display: block;
-    width: 300px; /* shortened to make the video fit in the column */
+    width: 300px;
+    /* shortened to make the video fit in the column */
     padding: 10px;
 }
 
@@ -303,9 +309,11 @@ body {
 }
 
 .column-left {
-    padding-left: 50px; /* important for pushing the whole shop-wrapper to the right wihtout going past 100% viewport */
+    padding-left: 50px;
+    /* important for pushing the whole shop-wrapper to the right wihtout going past 100% viewport */
 }
 
 .shop-footer {
-    top: 400px; /* used for pushing footer on shop page down; unbale to get it to work any other way for now */
+    top: 400px;
+    /* used for pushing footer on shop page down; unbale to get it to work any other way for now */
 }
