@@ -53,14 +53,10 @@ body {
     float: left;
 }
 
-#one {
-    margin-left: 50px;
-}
+#one {margin-left: 50px;}
 
 #four a,
-#five a {
-    padding-bottom: 10px;
-}
+#five a {padding-bottom: 10px;}
 
 .nav-button {
     background-color: #FC393D;
@@ -75,13 +71,9 @@ body {
     font-weight: normal;
 }
 
-.nav-button:hover {
-    background-color: #C12F3B;
-}
+.nav-button:hover {background-color: #C12F3B;}
 
-.banner-img {
-    width: 100%;
-}
+.banner-img {width: 100%;}
 
 .banner-text {
     height: 100px;
@@ -144,9 +136,7 @@ body {
     display: inline-block;
 }
 
-.copy {
-    margin: 25px 50px;
-}
+.copy {margin: 25px 50px;}
 
 .footer {
     height: 70px;
@@ -158,29 +148,17 @@ body {
     border-top: 2px solid black;
 }
 
-.fa-envelope {
-    color: #D44638;
-}
+.fa-envelope {color: #D44638;}
 
-.fa-envelope:hover {
-    color: #A73025;
-}
+.fa-envelope:hover {color: #A73025;}
 
-.fa-twitter-square {
-    color: #1DA1F2;
-}
+.fa-twitter-square {color: #1DA1F2;}
 
-.fa-twitter-square:hover {
-    color: #0B7BC1;
-}
+.fa-twitter-square:hover {color: #0B7BC1;}
 
-.fa-linkedin {
-    color: #007BB5;
-}
+.fa-linkedin {color: #007BB5;}
 
-.fa-linkedin:hover {
-    color: #00AEFF;
-}
+.fa-linkedin:hover {color: #00AEFF;}
 
 .fa-envelope,
 .fa-twitter-square,
@@ -202,9 +180,7 @@ body {
     margin-left: 90px;
 }
 
-.form {
-    padding-top: 20px;
-}
+.form {padding-top: 20px;}
 
 /* end of contact styles */
 
@@ -240,13 +216,9 @@ body {
     /* distance from the top of the audio div */
 }
 
-.audio-col-h2 {
-    padding-top: 139px;
-}
+.audio-col-h2 {padding-top: 139px;}
 
-.audio-col-h2 h2 {
-    text-align: center;
-}
+.audio-col-h2 h2 {text-align: center;}
 
 .col-video {
     display: block;
@@ -278,8 +250,6 @@ body {
     text-align: center;
 }
 
-
-
 .item-one,
 .item-two,
 .item-three,
@@ -304,9 +274,7 @@ body {
     text-align: center;
 }
 
-.item-anchor h2 {
-    color: #000;
-}
+.item-anchor h2 {color: #000;}
 
 .column-left {
     padding-left: 50px;
